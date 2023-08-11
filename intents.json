@@ -1,0 +1,201 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Verb",
+      "patterns": ["etre", "être", "Etre"],
+      "responses": [
+        "Great! Please choose the tense you'd like to conjugate the verb for."
+      ]
+    },
+    {
+      "tag": "Tense_present",
+      "patterns": [
+        "present","présent","Present","Présent"
+      ],
+      "responses": [
+        
+          "'Je suis' 'Tu es' 'Il/Elle/On est' 'Nous sommes' 'Vous etes' 'Ils/Elles sont'"
+  ]},
+    {
+      "tag": "Tense_imparfait",
+      "patterns": [
+        "Imparfait"
+      ],
+      "responses": [
+        
+        "'Je etais' 'Tu etais' 'Il/Elle/On etait' 'Nous etions' 'Vous etiez' 'Ils/Elles etaient'"        
+  ]
+    },
+    {
+      "tag": "Tense_past",
+      "patterns": [
+        "Passe Compose"
+      ],
+      "responses": [
+        
+        " 'J ai ete' 'Tu as ete' 'Il/Elle/On a ete' 'Nous avons ete' 'Vous avez ete' 'Ils/Elles ont ete'"  ]
+    },
+    {
+      "tag": "Tense_future",
+      "patterns": [
+        "Futur"
+      ],
+      "responses": [
+          "'Je serai' 'Tu seras' 'Il/Elle/On sera' 'Nous serons' 'Vous serez' 'Ils/Elles seront'"
+  ]
+    },
+    {
+      "tag": "Tense_plus",
+      "patterns": [
+        "Plus-que-parfait","Plus que parfait"
+      ],
+      "responses": [
+        "'Je avais ete' 'Tu avais ete' 'Il/Elle/On avait ete' 'Nous avions ete' 'Vous aviez ete' 'Ils/Elles avaient ete'"  ]
+    },
+    {
+      "tag": "Tense_fs",
+      "patterns": [
+        "Futur Simple"
+      ],
+      "responses": [
+        "'Je serai' 'Tu seras' 'Il/Elle/On sera' 'Nous serons' 'Vous serez' 'Ils/Elles seront'"    
+  ]},
+  {
+    "tag": "Tense_fa",
+    "patterns": [
+      "Futur Anterieur"
+    ],
+    "responses": [
+      "'Je aurai ete' 'Tu auras ete' 'Il/Elle/On aura ete' 'Nous aurons ete' 'Vous aurez ete' 'Ils/Elles auront ete'"
+      ]},
+      {
+        "tag": "Tense_cp",
+        "patterns": [
+          "Conditionnel Present"
+        ],
+        "responses": [
+          "'Je serais' 'Tu serais' 'Il/Elle/On serait' 'Nous serions' 'Vous seriez' 'Ils/Elles seraient'"          ]},
+          {
+            "tag": "Tense_cpast",
+            "patterns": [
+              "Conditionnel Passe"
+            ],
+            "responses": [
+              "'Je aurais ete' 'Tu aurais ete' 'Il/Elle/On aurait ete' 'Nous aurions ete' 'Vous auriez ete' 'Ils/Elles auraient ete'"              
+              ]},   
+              {
+                "tag": "Tense_sp",
+                "patterns": [
+                  "Subjonctif Present"
+                ],
+                "responses": [
+                  "'Je sois' 'Tu sois' 'Il/Elle/On soit' 'Nous soyons' 'Vous soyez' 'Ils/Elles soient'"
+                  ]},
+                  {
+                    "tag": "Tense_spast",
+                    "patterns": [
+                      "Subjonctif Passe"
+                    ],
+                    "responses": [
+                      "'Je aie ete' 'Tu aies ete' 'Il/Elle/On ait ete' 'Nous ayons ete' 'Vous ayez ete' 'Ils/Elles aient ete'"
+                  ]},
+                  {
+                    "tag": "Tense_splus",
+                    "patterns": [
+                      "Subjonctif Plus-que-parfait","Subjonctif Plus que parfait"
+                    ],
+                    "responses": [
+                      "'Je eusse acquis' 'Tu eusses acquis' 'Il/Elle/On eût acquis' 'Nous eussions acquis' 'Vous eussiez acquis' 'Ils/Elle eussent acquis'"
+                  ]},
+                  {
+                    "tag": "Tense_sim",
+                    "patterns": [
+                      "Subjonctif Imparfait"
+                    ],
+                    "responses": [
+                      "'Je acquisse' 'Tu acquisses' 'Il/Elle/On acquît' 'Nous acquissions' 'Vous acquissiez' 'Ils/Elle acquissent'"
+                  ]},
+                  {
+                    "tag": "Tense_im_p",
+                    "patterns": [
+                      "Imperatif Present"
+                    ],
+                    "responses": [
+                      "'Tu acquiers' 'Nous acquerons' 'Vous acquerez'"
+                  ]},
+                  {
+                    "tag": "Tense_impast",
+                    "patterns": [
+                      "Imperatif Passe"
+                    ],
+                    "responses": [
+                      "'Tu aie acquis' 'Nous ayons acquis' 'Vous ayez acquis'"
+                  ]},
+                  {
+                    "tag": "Tense_infpre",
+                    "patterns":"Infinitif Present"
+                    ,
+                    "responses": [
+                      "être"                  ]},
+                  {
+                    "tag":"Tense_infpast",
+                    "patterns":"Infinitif Passe",
+                    "responses":"avoir ete"
+                  },
+                  {
+                    "tag":"Tense_pp",
+                    "patterns":"Participe Present",
+                    "responses":"etant"
+                  },
+                  {
+                    "tag":"Tense_ppast",
+                    "patterns":"Participe Passe",
+                    "responses":"ete"
+                  },
+                  {
+                    "tag":"Tense_gp",
+                    "patterns":"Gerondif Present",
+                    "responses":"en etant"
+                  },
+                  {
+                    "tag":"Tense_gpast",
+                    "patterns":"Gerondif Passe",
+                    "responses":"en ayant ete"
+                  }
+
+
+
+  ]
+}
+
