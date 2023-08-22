@@ -45,7 +45,7 @@
       ],
       "responses": [
         
-          "'Je suis' 'Tu es' 'Il/Elle/On est' 'Nous sommes' 'Vous etes' 'Ils/Elles sont'"
+          "'Je suis'\n'Tu es'\n'Il/Elle/On est'\n'Nous sommes'\n'Vous etes'\n'Ils/Elles sont'"
   ]},
     {
       "tag": "Tense_imparfait",
@@ -54,7 +54,7 @@
       ],
       "responses": [
         
-        "'Je etais' 'Tu etais' 'Il/Elle/On etait' 'Nous etions' 'Vous etiez' 'Ils/Elles etaient'"        
+        "'Je etais'\n'Tu etais'\n'Il/Elle/On etait'\n'Nous etions'\n'Vous etiez'\n'Ils/Elles etaient'"        
   ]
     },
     {
@@ -64,7 +64,7 @@
       ],
       "responses": [
         
-        " 'J ai ete' 'Tu as ete' 'Il/Elle/On a ete' 'Nous avons ete' 'Vous avez ete' 'Ils/Elles ont ete'"  ]
+        " 'J ai ete'\n'Tu as ete'\n'Il/Elle/On a ete'\n'Nous avons ete'\n'Vous avez ete'\n'Ils/Elles ont ete'"  ]
     },
     {
       "tag": "Tense_future",
@@ -72,7 +72,7 @@
         "Futur"
       ],
       "responses": [
-          "'Je serai' 'Tu seras' 'Il/Elle/On sera' 'Nous serons' 'Vous serez' 'Ils/Elles seront'"
+          "'Je serai'\n'Tu seras'\n'Il/Elle/On sera'\n'Nous serons'\n'Vous serez'\n'Ils/Elles seront'"
   ]
     },
     {
@@ -81,7 +81,7 @@
         "Plus-que-parfait","Plus que parfait"
       ],
       "responses": [
-        "'Je avais ete' 'Tu avais ete' 'Il/Elle/On avait ete' 'Nous avions ete' 'Vous aviez ete' 'Ils/Elles avaient ete'"  ]
+        "'Je avais ete'\n'Tu avais ete'\n'Il/Elle/On avait ete'\n'Nous avions ete'\n'Vous aviez ete'\n'Ils/Elles avaient ete'"  ]
     },
     {
       "tag": "Tense_fs",
@@ -89,7 +89,7 @@
         "Futur Simple"
       ],
       "responses": [
-        "'Je serai' 'Tu seras' 'Il/Elle/On sera' 'Nous serons' 'Vous serez' 'Ils/Elles seront'"    
+        "'Je serai'\n'Tu seras'\n'Il/Elle/On sera'\n'Nous serons'\n'Vous serez'\n'Ils/Elles seront'"    
   ]},
   {
     "tag": "Tense_fa",
@@ -97,7 +97,7 @@
       "Futur Anterieur"
     ],
     "responses": [
-      "'Je aurai ete' 'Tu auras ete' 'Il/Elle/On aura ete' 'Nous aurons ete' 'Vous aurez ete' 'Ils/Elles auront ete'"
+      "'Je aurai ete'\n'Tu auras ete'\n'Il/Elle/On aura ete'\n'Nous aurons ete'\n'Vous aurez ete'\n'Ils/Elles auront ete'"
       ]},
       {
         "tag": "Tense_cp",
@@ -105,14 +105,14 @@
           "Conditionnel Present"
         ],
         "responses": [
-          "'Je serais' 'Tu serais' 'Il/Elle/On serait' 'Nous serions' 'Vous seriez' 'Ils/Elles seraient'"          ]},
+          "'Je serais'\n'Tu serais'\n'Il/Elle/On serait'\n'Nous serions'\n'Vous seriez'\n'Ils/Elles seraient'"          ]},
           {
             "tag": "Tense_cpast",
             "patterns": [
               "Conditionnel Passe"
             ],
             "responses": [
-              "'Je aurais ete' 'Tu aurais ete' 'Il/Elle/On aurait ete' 'Nous aurions ete' 'Vous auriez ete' 'Ils/Elles auraient ete'"              
+              "'Je aurais ete'\n'Tu aurais ete'\n'Il/Elle/On aurait ete'\n'Nous aurions ete'\n'Vous auriez ete'\n'Ils/Elles auraient ete'"              
               ]},   
               {
                 "tag": "Tense_sp",
@@ -120,7 +120,7 @@
                   "Subjonctif Present"
                 ],
                 "responses": [
-                  "'Je sois' 'Tu sois' 'Il/Elle/On soit' 'Nous soyons' 'Vous soyez' 'Ils/Elles soient'"
+                  "'Je sois'\n'Tu sois'\n'Il/Elle/On soit'\n'Nous soyons'\n'Vous soyez'\n'Ils/Elles soient'"
                   ]},
                   {
                     "tag": "Tense_spast",
@@ -128,7 +128,7 @@
                       "Subjonctif Passe"
                     ],
                     "responses": [
-                      "'Je aie ete' 'Tu aies ete' 'Il/Elle/On ait ete' 'Nous ayons ete' 'Vous ayez ete' 'Ils/Elles aient ete'"
+                      "'Je aie ete'\n'Tu aies ete'\n'Il/Elle/On ait ete'\n'Nous ayons ete'\n'Vous ayez ete'\n'Ils/Elles aient ete'"
                   ]},
                   {
                     "tag": "Tense_splus",
@@ -136,7 +136,7 @@
                       "Subjonctif Plus-que-parfait","Subjonctif Plus que parfait"
                     ],
                     "responses": [
-                      "'Je eusse acquis' 'Tu eusses acquis' 'Il/Elle/On eût acquis' 'Nous eussions acquis' 'Vous eussiez acquis' 'Ils/Elle eussent acquis'"
+                      "'Je eusse acquis'\n'Tu eusses acquis'\n'Il/Elle/On eût acquis'\n'Nous eussions acquis'\n'Vous eussiez acquis'\n'Ils/Elle eussent acquis'"
                   ]},
                   {
                     "tag": "Tense_sim",
@@ -144,7 +144,7 @@
                       "Subjonctif Imparfait"
                     ],
                     "responses": [
-                      "'Je acquisse' 'Tu acquisses' 'Il/Elle/On acquît' 'Nous acquissions' 'Vous acquissiez' 'Ils/Elle acquissent'"
+                      "'Je acquisse'\n'Tu acquisses'\n'Il/Elle/On acquît'\n'Nous acquissions'\n'Vous acquissiez'\n'Ils/Elle acquissent'"
                   ]},
                   {
                     "tag": "Tense_im_p",
@@ -152,7 +152,7 @@
                       "Imperatif Present"
                     ],
                     "responses": [
-                      "'Tu acquiers' 'Nous acquerons' 'Vous acquerez'"
+                      "'Tu acquiers'\n'Nous acquerons'\n'Vous acquerez'"
                   ]},
                   {
                     "tag": "Tense_impast",
@@ -160,7 +160,7 @@
                       "Imperatif Passe"
                     ],
                     "responses": [
-                      "'Tu aie acquis' 'Nous ayons acquis' 'Vous ayez acquis'"
+                      "'Tu aie acquis'\n'Nous ayons acquis'\n'Vous ayez acquis'"
                   ]},
                   {
                     "tag": "Tense_infpre",
