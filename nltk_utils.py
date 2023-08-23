@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import numpy as np
 import nltk
 # nltk.download('punkt')
